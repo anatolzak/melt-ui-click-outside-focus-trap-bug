@@ -18,7 +18,7 @@
 		<div use:melt={$overlay} class="fixed inset-0 z-50 bg-black/50" />
 		<button
 			use:melt={$close}
-			class="fixed right-[10px] top-[10px] z-50 inline-flex h-6 w-6 appearance-none items-center justify-center rounded-full text-blue-800 focus-within:border-4 focus-within:border-red-500 focus-within:shadow-blue-400 focus-within:outline-none hover:bg-blue-100"
+			class="fixed right-[10px] top-[10px] z-50 inline-flex appearance-none items-center justify-center rounded-full text-blue-800 focus-within:border-4 focus-within:border-red-500 focus-within:shadow-blue-400 focus-within:outline-none hover:bg-blue-100"
 		>
 			close
 		</button>
@@ -36,8 +36,7 @@
 			<div class="mt-6 flex justify-end gap-4">
 				<button
 					use:melt={$close}
-					class="inline-flex h-8 items-center justify-center rounded-[4px]
-                    bg-zinc-100 px-4 font-medium leading-none text-zinc-600"
+					class="inline-flex h-8 items-center justify-center rounded-[4px] bg-zinc-100 px-4 font-medium leading-none text-zinc-600 focus-within:border-4 focus-within:border-red-500 focus-within:shadow-blue-400 focus-within:outline-none"
 				>
 					Cancel
 				</button>
@@ -45,7 +44,7 @@
 		</div>
 		<button
 			use:melt={$close}
-			class="absolute right-[10px] top-[10px] inline-flex h-6 w-6
+			class="absolute right-[10px] top-[10px] inline-flex
                 appearance-none items-center justify-center rounded-full text-blue-800
                 hover:bg-blue-100 focus:shadow-blue-400"
 		>
